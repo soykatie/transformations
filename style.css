@@ -1,0 +1,152 @@
+body
+{
+    background-color: rgb(168, 219, 148);
+    text-align: center;
+}
+
+
+ul.buttons li 
+{
+    margin: 5px 10px;
+    list-style: none;
+    display: inline-block;
+}
+
+a.link1, 
+a.link2, 
+a.link3 
+{
+    background: rgb(246, 245, 253);
+    width: 240px;
+    height: 50px;
+    border-radius: 20px;
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    padding: 10px 0;
+    box-shadow: 4px 4px 10px rgba(56, 97, 40, 0.5);
+    -moz-box-shadow: 4px 4px 10px rgba(56, 97, 40, 0.5);
+    -webkit-transition: background 0.3s ease;
+    -moz-transition: background 0.3s ease;
+    -o-transition: background 0.3s ease;
+    transition: background 0.3s ease;
+}
+
+a.link1:hover, 
+a.link1:focus,
+a.link2:hover, 
+a.link2:focus, 
+a.link3:hover, 
+a.link3:focus
+{
+    background: rgb(102, 153, 0);
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);   
+}
+
+a.link2,
+a.link3
+{
+    -webkit-transition: background 0.3s ease, color 0.2s linear;
+    -moz-transition: background 0.3s ease, color 0.2s linear;
+    -o-transition: background 0.3s ease, color 0.2s linear;
+    transition: background 0.3s ease, color 0.2s linear;
+}
+
+a.link2:hover, 
+a.link2:focus, 
+a.link3:hover, 
+a.link3:focus 
+{
+    color: rgb(246, 245, 253);
+}
+
+a.link3:hover, 
+a.link3:focus
+{
+    -webkit-transition: –webkit-transform 0.4s ease-in-out;
+    -moz-transition: –moz-transform 0.4s ease-in-out;
+    transition: transform 0.4s ease-in-out;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+#name
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000;
+}
+
+ul.spain li, 
+ul.korea li, 
+ul.norway li, 
+ul.belarus li  
+{
+    display: inline-block;
+    margin: 5px 10px;
+    padding: 10px;
+    border: 2px solid rgb(246, 245, 253);
+    list-style: none;
+}
+
+ul.spain li a img, 
+ul.korea li a img, 
+ul.norway li a img, 
+ul.belarus li a img
+{
+    width: 200px;
+    -webkit-transition: –webkit-transform 0.2s ease-in-out;
+    -moz-transition: –moz-transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+}
+
+ul.spain li a:hover img, 
+ul.korea li a:hover img, 
+ul.norway li a:hover img, 
+ul.belarus li a:hover img 
+{
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+ul.spain li a:hover img 
+{
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+ul.korea li a:hover img 
+{
+    -webkit-transform: scale(1.5) rotate(10deg);
+    -moz-transform: scale(1.5) rotate(10deg);
+    -o-transform: scale(1.5) rotate(10deg);
+    transform: scale(1.5) rotate(10deg);
+}
+            
+ul.norway li a:hover img
+{
+    -webkit-transform: scale(1.5) skew(5deg, -20deg);
+    -moz-transform: scale(1.5) skew(5deg, -20deg);
+    -o-transform: scale(1.5) skew(5deg, -20deg);
+    transform: scale(1.5) skew(5deg, -20deg);
+}
+
+ul.belarus li a:hover img 
+{
+    -webkit-transform: scale(1.5) translate(-40px, -20px);
+    -moz-transform: scale(1.5) translate(-40px, -20px);
+    -o-transform: scale(1.5) translate(-40px, -20px);
+    transform: scale(1.5) translate(-40px, -20px);
+}
+                
